@@ -4,7 +4,7 @@
 # Time Complexity = O(n), Space = O(1)
 
 def find_smallest_2nd_smallest(arr)
-  least_1, least_2 = 1.0/0.0
+  least_1 = least_2 = 1.0/0.0
   arr.each do |e|
     if e < least_1
       least_2 = least_1
